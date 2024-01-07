@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prtk's Stop Watch</title>
+    <link rel="stylesheet" href="prtk.css">
+    <link rel="icon" type="image/x-icon" href="https://e1.pngegg.com/pngimages/517/96/png-clipart-dots-orange-and-white-p-logo.png" />
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+<div class="container">
+    <div class="timer-Display">
+        00 : 00 : 00 : 00
+    </div>
+    <ul class="laps"></ul>
+      <div class="buttons">
+        <button id="startTimer" onclick="start()">START</button>
+        <button id="pauseTimer" onclick="pause()">PAUSE</button>
+        <button id="resetTime" onclick="reset()">RESET</button>
+        <button id="restartTimer" onclick="restart()">RESTART</button>
+        <button id="lap" onclick="lap()">LAP</button>
+        <button id="resetLap" onclick="resetLap()">RESET LAP</button>
+    </div>
+
+</div>
+<script src="prtk.js"></script>
+
+</body>
+</html>
